@@ -2,7 +2,224 @@
   <h2 class="note-title">
     这篇通讯对你们没有帮助吧？
   </h2>
-  <div class="content"><p><span class="timestamp">Last update: 01/28/2021 00:58</span></p>
+  <div class="content"><p>在开始今天的讨论前，为了节约你们的时间，我们先来做个实验。</p>
+
+<p>实验是这样的，我想了一个正整数数列规律，以这个规律我列出三个数，你也可以列举三个数来问我这三个数是不是符合我的规律，我以是或否来回答。最终你要根据你所问问题的答案和我最初给出的三个数来推测出我想的那个数列规律。</p>
+
+<p>当然在这封信里我没发跟你互动，不过我们可以在大脑里模拟一下。我的三个数是：</p>
+
+<blockquote>
+  <p><code>2, 4, 8</code></p>
+</blockquote>
+
+<p>现在，你可以停下来，想想你的要测试的问题，并可以假设我回答了是或否，经过数次这样的测试问答，最终得到结论。记住你的猜想和想要问我的那些测试问题。做完这些我们再继续。</p>
+
+<p>我们来看一下小明和小白是怎么做这个实验的。</p>
+
+<blockquote>
+  <p>小明：</p>
+  
+  <p>可能是后一个数是前一个数的两倍吧？那我问“<code>1，2，4</code>”符合吗？答：是。</p>
+  
+  <p>哟，有戏，保险起见我再问一个，“<code>3，6，12</code>”符合吗？答：是。</p>
+  
+  <p>稳了稳了，我有结论了，你想的规律是“后一个数是前一个数的两倍”。答：错。</p>
+</blockquote>
+
+<blockquote>
+  <p>小白：</p>
+  
+  <p>看着好像都是偶数，那我问“<code>1，3，5</code>”符合吗？答：是。</p>
+  
+  <p>啊，看来不一定是偶数，应该也不是后一个数是前一个数的两倍的关系，因为我问的那个是前一个比后一个多2。这两个数列都是后面的比前面的大，不会就是这个吧？问“<code>3，2，1</code>”符合吗？答：否。</p>
+  
+  <p>有可能就是，那我问个确认一下，“<code>2，4，5</code>”符合吗？答：是。</p>
+  
+  <p>我的结论是后面的数比前面的数大。答：正确。</p>
+</blockquote>
+
+<p>注意到一点，小明想到一个猜想，就直接问了能证明其猜想的数列，而小白则相反，问的都是能证伪自己猜想的数列。如果你刚刚的问法跟小白差不多，你已经不需要看这篇文章了。但如果你对一些认知科学和心理学的研究感兴趣，还是可以快速扫一眼。其余的同学，我们开始今天的讨论吧！</p>
+
+<hr />
+
+<p>上一篇因为篇幅原因，我们一笔带过了“认知偏误”这个概念，这篇我们就来说说这个。</p>
+
+<p>认知偏误是一种系统性的判断偏差，主要是人们以主观感受而非客观事实为基础建立心智模型所致。有两大类，以冷、热分之，热认知偏误存在一定的主观动机，而冷认知偏误则是大脑被动运作机制所致。分了冷热并不意味着这两类不会同时出现，我们往往能发现两类同时出现<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup>（如往常一样，这是脚注的意思）。</p>
+
+<p>虽然我们称之为认知偏误，但有些偏误在特定场景下被认为是有益的，因此我们在讨论的时候不能以偏概全。</p>
+
+<p>下面我们就看一个大家可能已经在很多地方看到过的认知偏误——确认偏误（Confirmation bias）。它具有我们刚刚提到的所有特征。</p>
+
+<h3 id="-1">确认偏误</h3>
+
+<p>因为自己已有的观念，在信息搜寻、解读和回忆的时候，对那些有助于支撑自己观点的信息更倾向，这就是确认偏误。它是个典型的系统性认知偏误，因为人们的信息处理总共就三个环节：信息搜寻、信息解读、信息的存储获取（回忆），这每个环节都存在确认偏误的可能。</p>
+
+<p>学界当然对以下细分的确认偏误有很多解释，在写这篇文章的时候我也读了很多相关的论文和书籍。因为篇幅的原因，下面我们看一些被很多研究提及的理论，让我们大致了解我们到底面临什么样的怪物。另外我认为我们的行为很多时候不是简单的一个理论可以解释的，往往是好几个理论共同发挥作用。所以虽然我是分了小类讨论的，但我们通常可以在一个案例里找到好几个理论共同作用。</p>
+
+<h4 id="-2">信息搜寻类确认偏误</h4>
+
+<p>已经有大量的研究和实验证明人们倾向于搜寻跟自己假说/观念相符的信息/证据。很多文献都逃不开“正向测试策略”这个概念（Positive Test Strategy，PTS）。这个策略其实就是开头小明用的策略。而小白用的是反向测试策略（Negative Test Strategy，NTS）。</p>
+
+<p>这里需要澄清的一点是，PTS 并不意味着确认偏误一定会发生，PTS 只是一种启发式方法（heuristic technique），是我们在已知信息有限的情况下理解世界的一种方式<sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup>。因为它是启发式的，它往往能保证花费较少资源就可以得到差不多正确的答案；但也正因为它是启发式的，它经常只是找到了局部最优解而不是全局最优解。就拿开头的实验来说，PTS 所探索的可能性要相对集中，而 NTS 探索的空间要大很多。因此我们可以看出，PTS 得到的假说只是真实情况的子集，如下图所示，PTS 永远没发探知圈外的可能性。</p>
+
+<p><img src="notes/assets/PTS.png" /></p>
+
+<p>虽然有论文讨论了概率上来说，PTS 和 NTS 没有差别<sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup>，但是当 PTS 和其他因素相结合时，确认偏误就极可能出现了。比如，我们发现 PTS 在得到肯定回答的时候，会进一步巩固我们已有观念或假设，这会使我们产生不愿改变的倾向。</p>
+
+<p>可我们为什么要讨论 PTS 呢？因为其实它是人类的默认启发式方法，也就是说，小白是练过的，一般人应该都是跟小明一样。这样一来我们因为使用 PTS 而导致确认偏误的可能性就大了。这种默认启发式方法是很难人为修正的，我们完全可以用根深蒂固来形容。我在各种研究里也看到，我们会重复尝试已经被证明错误的猜想，即便是研究员告诉参加实验的志愿者如何更有效地测试猜想，但结果仍然不会有什么改变<sup class="footnote-ref" id="fnref-4"><a href="#fn-4">4</a></sup>。</p>
+
+<p>PTS 不光可能会影响我们自己的判断，也有可能会影响到被我们提问的人的回答。比如有研究发现，正反两个问题：“你的社交生活愉快吗”和“你的社交生活不愉快吗”，前后收到的答案差别很大——前者回答愉快的要比后者多很多。相关的研究提出的假说也有很多，其中一个就是肯定的回答在社交场合中会让你显得更友好。随后的章节里，我还会解释另一个“冷”认知偏误的假说。</p>
+
+<h4 id="-3">信息解读类确认偏误</h4>
+
+<p>个人情感和先入为主的观念、动机在这一小类确认偏误里起到很重要的诱导作用。即便是同一份材料，在不同的人眼里，都能解读出更偏向于自己观点的意思。不仅如此，我们还发现，在人们解读时，相较于跟自己观点相悖或无关的信息，更靠近自己观念的信息会被加高权重。</p>
+
+<p>04年美国大选的时候有研究员做了一个实验<sup class="footnote-ref" id="fnref-5"><a href="#fn-5">5</a></sup>。将布什、其竞选对手克里和另一个中立政治人物的言论给有政治倾向性的志愿者听，同时用核磁共振扫描其大脑活动。研究发现当受试者听到自己喜欢的政客说前后矛盾甚至伪善的观点时，他们大脑的感性区域非常活跃，而对另外两个人的矛盾言论就没有这种反应。</p>
+
+<p>即便说他们言论自相矛盾，我们仍区别对待我们喜欢的政治人物。这是我们启用感性功能，积极消减“矛盾给我们带来的不适和紧张感”的结果（顺带说一句，这种紧张和不适也被叫做“认知失调”），并非逻辑推演错误所致。</p>
+
+<p>由此可见，在解读信息的时候，我们时常会绕过理性。而且这种倾向性不仅仅存在于那些较为强烈的感情影响下，有研究发现轻微的感情带入也会导致偏误<sup class="footnote-ref" id="fnref-6"><a href="#fn-6">6</a></sup>。</p>
+
+<h4 id="-4">选择性回忆</h4>
+
+<p>即便我们侥幸逃过信息搜集和解读的确认偏误，还有选择性回忆在等着我们。在阅读了好些研究之后，我意识到，回忆并不像计算机一样读取信息，而更接近于重新构建记忆。换句话说，回忆更像是创造记忆。这里我觉得有一个理论很适合拿来解释选择性记忆问题——基模理论（Schema theory，psychology）。它说的是，跟我们预期越匹配的信息，越容易被存储和获取。虽然有理论说越超乎意料的东西我们越容易记得，但基于以下要说的几个研究，我觉得用基模模型更好解释。</p>
+
+<h5 id="-5">研究一</h5>
+
+<p>志愿者被要求阅读一份个人介绍，这份介绍里包括了此人既有内向又有外向的行为特征。接着收走那份介绍，一半的人被告知这是一份评估入职图书管理员的报告，而另一半的人则被告知这是一份评估入职房产经纪人的报告。接着要求这些志愿者回忆这个人有哪些特征。如你所料，图书管理员组回忆了更多内向的特征，房产经纪人组则回忆了更多外向的特征。<sup class="footnote-ref" id="fnref-7"><a href="#fn-7">7</a></sup></p>
+
+<h5 id="-6">研究二</h5>
+
+<p>一半的志愿者被告知外向者比内向者更成功，而另一半被告知相反的信息。在之后一个看似不相关的调研里，志愿者被要求回忆自己生活中的内向或外向的事件。最后研究显示志愿者回忆的内容跟自己想要成为的人格特征相吻合，即第一组里想更成功的人会回忆那些外向型的特征，以此类推。<sup class="footnote-ref" id="fnref-8"><a href="#fn-8">8</a></sup></p>
+
+<h5 id="-7">研究三</h5>
+
+<p>寡妇和鳏夫志愿者们对丧偶后半年和五年两个时间点的悲恸程度评分。大家都说半年的时候悲伤更强烈。而当被问起丧偶半年那会儿的具体感受的时候，他们通常都是拿现在的感觉去分析当年的感受。<sup class="footnote-ref" id="fnref-9"><a href="#fn-9">9</a></sup></p>
+
+<p>这些研究看似好像是在说，刻板印象、自己的欲求和自己的情感有可能使我们产生记忆偏误，但事实上底层逻辑却是相同的。这些偏误均来自于我们内心对世界的合理化推论和重现，都是跟我们预期的匹配，是符合基模模型的。</p>
+
+<p>还记得前文提到的，被问社交生活愉快的例子吗？我提到的另一个冷认知偏误，就是因为我们在被问的时候会下意识去想那些符合社交愉快的回忆。我们总会有愉快的时候，所以当被用 PTS 问时，我们大多会回答肯定的答案。</p>
+
+<h4 id="-8">成本效益模型</h4>
+
+<p>除了上面的这些研究和分析，还有一种理论也是值得思考的。按进化心理学，这一学派认为我们并不总是为了“求真”，而是希望避免最昂贵的错误。</p>
+
+<p>我们时常会想：<sup class="footnote-ref" id="fnref-10"><a href="#fn-10">10</a></sup></p>
+
+<ul>
+<li><p>糟了，出门的时候炉子是不是没关？</p></li>
+<li><p>我脖子上的痣是不是肿瘤啊？</p></li>
+<li><p>我儿子是不是对自己的攀岩技术和体能自信过头了，这次挑战会不会有生命危险？</p></li>
+</ul>
+
+<p>在这种高成本的错误面前，我们的确认偏误就一下子都不见了。</p>
+
+<p>我们也会遇到低成本的时候，比如说有研究探讨了确认偏误是一种社交技巧<sup class="footnote-ref" id="fnref-11"><a href="#fn-11">11</a></sup>。试想在一个聚会里手足无措的内向者，一个陌生人走上来问“你不喜欢这种社交聚会吧？”，另一个陌生人走上来问“你喜欢这么热闹的聚会吗？”，哪一个更容易破冰呢？毫无疑问是前者，因为ta表现出了高情商和同情感。用确认偏误所承受的错误成本换得一个新朋友，这种交易还是很划算的。需要点明的一点是，这也是我们开头时说的一种有益的认知偏误。</p>
+
+<h3 id="-9">如何避免</h3>
+
+<p>说了那么多理论，我们来点实际的，结合前面的成本收益模型我们知道，成本很高的我们会自动避免，有益的无需避免。但我们有时需要避免部分无益甚至有害的确认偏误，之所以说“部分”，是因为如前所述，这种启发式方式是一种思考捷径，无伤大雅的确认偏误可以帮助减少我们大脑的负荷。但在关键的问题上，我们应该学会避免。</p>
+
+<p>关键问题有哪些呢？比方说：</p>
+
+<ul>
+<li>个人发展</li>
+<li>职业规划</li>
+<li>个人财务</li>
+<li>情侣和婚姻关系</li>
+<li>孩子的教育</li>
+<li>等等</li>
+</ul>
+
+<p>这些问题跟上文提到的高成本错误比，都是“慢性”的，不足以引起我们的注意，但又足够重要。</p>
+
+<p>下面我们通过理论和历史来找出回避的方法。研究者们发现<sup class="footnote-ref" id="fnref-12"><a href="#fn-12">12</a></sup>：</p>
+
+<ul>
+<li>避免确认偏误的能力和智商无关，但跟个人的理性思考能力有关</li>
+<li>更自信的人更容易去探索和接受跟他们观点相悖的证据以帮助他们完善论点，提高自信度会减低自己对支撑己方观点信息的偏好</li>
+</ul>
+
+<p>这个研究结果不会给我们实际行动提供什么特别有用的信息，但这具有指导意义。</p>
+
+<p>我们试图要避免的问题其实很多伟人也面对过，比如查尔斯·达尔文，他在形成自己的假说之后觉得自己的理论特完美。在著建理论的过程中，他做了大量的工作去证伪自己的假说，预演别人会怎么抨击他的想法，并一早想好如何证明。因此到今天，这也是一个极具争议但很难证伪的假说。</p>
+
+<p>另一个例子还是来自查理·芒格，他曾说过：</p>
+
+<blockquote>
+  <p>如果我要拥有一种观点，如果我不能够比全世界最聪明、最有能力、最有资格反驳这个观点的人更能够证否自己，我就不配拥有这个观点。</p>
+</blockquote>
+
+<p>这也是为什么我在前文花了那么多笔墨写 PTS 和 NTS，事实上这两个例子里的大人物都和小白一样，用的是 NTS。在 Rüdiger F. Pohl 的 Cognitive Illusions 一书里，他也提到了应该用 NTS 帮助避免确认偏误。但他也谈到，NTS 毕竟是反直觉的，因此如果实在做不到，不妨试试在形成第一个猜想之后再逼迫自己想出第二个猜想。</p>
+
+<p>这两个方法是我经常使用的，可以说“亲测有效”。但还有要提一嘴的，因为篇幅和内容太硬核的原因我没有展开写 PTS 和 NTS 的离散数学和概率论解析（以后我可能会<a href="https://twitter.com/search?q=from%3A%40ReadThinkShare%20%23CBP2">以这种方式整理在 Twitter 上</a>）。但是一个结论是这俩策略从理性的角度来说各有千秋，都有盲点，所以在分析问题时都应该用上。但因为 PTS 是人类的默认策略，很多文章都未提及。</p>
+
+<p>最后我还想说，我们能否时刻想起用这些方法来帮助我们做更好的决定并不重要，真正重要的是意识（awareness）。 就像伤员做复健一样，有了意识才能训练特定的肌肉。这些方法仅仅是外部工具。所以在你读完这篇文章后过了几年，也许你已经忘记这些实验和方法，但只要你有对认知偏误的意识，你就更有可能避免一些偏误。</p>
+
+<h3 id="-10">透明时间</h3>
+
+<p>感谢帮助分享的几位读者，在你们的帮助下，截止到今天，我们有146人订阅了通讯，有503人在 Twitter 上跟随了我们。</p>
+
+<p>还是老规矩，不要吝啬你们的“素质三连”，让啃了俩礼拜论文、书籍的我也乐呵乐呵😄</p>
+
+<p>今天就先到这儿，祝大家成长顺利，我们下次再见！</p>
+
+<p>哦对了，文章标题的梗大家应该都明白了吧？</p>
+
+<p><span class="timestamp">Last update: 02/05/2021 12:25</span></p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>"Confirmation Bias: A Ubiquitous Phenomenon in Many Guises" (PDF). Review of General Psychology. 2 (2): 175–220 [198]. <a href="https://doi.org/10.1037%2F1089-2680.2.2.175">https://doi.org/10.1037/1089-2680.2.2.175</a>.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-2">
+<p><a href="https://en.wikipedia.org/wiki/Heuristic">https://en.wikipedia.org/wiki/Heuristic</a>&#160;<a href="#fnref-2" class="footnoteBackLink" title="Jump back to footnote 2 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-3">
+<p>Klayman, Joshua; Ha, Young-Won (1987), "Confirmation, disconfirmation and information in hypothesis testing", Psychological Review, 94 (2): 211–28, CiteSeerX 10.1.1.174.5232, <a href="https://psycnet.apa.org/doi/10.1037/0033-295X.94.2.211">https://doi.org/10.1037/0033-295X.94.2.211</a>, ISSN 0033-295X, retrieved 2009-08-14.&#160;<a href="#fnref-3" class="footnoteBackLink" title="Jump back to footnote 3 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-4">
+<p>Mynatt, Clifford R., Michael E. Doherty, and Ryan D. Tweney. “Consequences of Confirmation and Disconfirmation in a Simulated Research Environment:” Quarterly Journal of Experimental Psychology, January 1, 2018. <a href="https://doi.org/10.1080/00335557843000007">https://doi.org/10.1080/00335557843000007</a>.&#160;<a href="#fnref-4" class="footnoteBackLink" title="Jump back to footnote 4 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-5">
+<p>Westen, Drew, Pavel S. Blagov, Keith Harenski, Clint Kilts, and Stephan Hamann. “Neural Bases of Motivated Reasoning: An FMRI Study of Emotional Constraints on Partisan Political Judgment in the 2004 U.S. Presidential Election.” Journal of Cognitive Neuroscience 18, no. 11 (October 27, 2006): 1947–58. <a href="https://doi.org/10.1162/jocn.2006.18.11.1947">https://doi.org/10.1162/jocn.2006.18.11.1947</a>.&#160;<a href="#fnref-5" class="footnoteBackLink" title="Jump back to footnote 5 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-6">
+<p>Gadenne, V.; Oswald, M. (1986), "Entstehung und Veränderung von Bestätigungstendenzen beim Testen von Hypothesen [Formation and alteration of confirmatory tendencies during the testing of hypotheses]", Zeitschrift für Experimentelle und Angewandte Psychologie, 33: 360–74 via Oswald &amp; Grosjean 2004, p. 89&#160;<a href="#fnref-6" class="footnoteBackLink" title="Jump back to footnote 6 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-7">
+<p>Snyder, M.; Cantor, N. (1979), "Testing hypotheses about other people: the use of historical knowledge", Journal of Experimental Social Psychology, 15 (4): 330–342, <a href="https://doi.org/10.1016/0022-1031(79)90042-8" title="Persistent link using digital object identifier">https://doi.org/10.1016/0022-1031(79)90042-8</a> via Goldacre 2008, p. 231&#160;<a href="#fnref-7" class="footnoteBackLink" title="Jump back to footnote 7 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-8">
+<p>Sanitioso, Rasyid; Kunda, Ziva; Fong, G.T. (1990), "Motivated recruitment of autobiographical memories", Journal of Personality and Social Psychology, 59 (2): 229–41, <a href="https://psycnet.apa.org/doi/10.1037/0022-3514.59.2.229">https://doi.org/10.1037/0022-3514.59.2.229</a>, ISSN 0022-3514, PMID 2213492&#160;<a href="#fnref-8" class="footnoteBackLink" title="Jump back to footnote 8 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-9">
+<p>Levine, L.; Prohaska, V.; Burgess, S.L.; Rice, J.A.; Laulhere, T.M. (2001), "Remembering past emotions: The role of current appraisals", Cognition and Emotion, 15 (4): 393–417, -   <a href="https://doi.org/10.1080/02699930125955">https://doi.org/10.1080/02699930125955</a>&#160;<a href="#fnref-9" class="footnoteBackLink" title="Jump back to footnote 9 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-10">
+<p><a href="https://archive.org/details/cognitiveillusio0000unse/page/80/mode/1up">https://archive.org/details/cognitiveillusio0000unse/page/80/mode/1up</a>&#160;<a href="#fnref-10" class="footnoteBackLink" title="Jump back to footnote 10 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-11">
+<p>Dardenne, Benoit, and Jacques-Philippe Leyens. “Confirmation Bias as a Social Skill:” Personality and Social Psychology Bulletin, July 2, 2016. <a href="https://doi.org/10.1177/01461672952111011">https://doi.org/10.1177/01461672952111011</a>.&#160;<a href="#fnref-11" class="footnoteBackLink" title="Jump back to footnote 11 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn-12">
+<p>Stanovich, Keith E., Richard F. West, and Maggie E. Toplak. “Myside Bias, Rational Thinking, and Intelligence:” Current Directions in Psychological Science, August 5, 2013. <a href="https://doi.org/10.1177/0963721413480174">https://doi.org/10.1177/0963721413480174</a>.&#160;<a href="#fnref-12" class="footnoteBackLink" title="Jump back to footnote 12 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
 </div>
 </article>
 
