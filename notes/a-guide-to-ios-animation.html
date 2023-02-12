@@ -1,0 +1,40 @@
+<article class="note">
+  <h2 class="note-title">
+    A Guide to Ios Animation
+  </h2>
+  <div class="content"><h1 id="a-guide-to-ios-animation-highlight">A Guide to Ios Animation (highlight)</h1>
+
+<p><img src="https://readwise-assets.s3.amazonaws.com/static/images/default-book-icon-6.71d9a01814f7.png" alt="rw-book-cover" /></p>
+
+<h2 id="metadata">Metadata</h2>
+
+<ul>
+<li>Author: <a href="杨骑滔kittenyang.html">杨骑滔（KittenYang）</a></li>
+<li>Full Title: A Guide to Ios Animation</li>
+<li>Category: <span class="tag">books</span></li>
+</ul>
+
+<h2 id="highlights">Highlights</h2>
+
+<ul>
+<li>右侧 Keynote 中看到的那个被虚线框起来的黑色矩形。<br />
+首先计算出这个外接矩形的位置。origin 根据中心点的 x(y) 减去宽度（高度）的 1/2 获得。<br />
+//outsideRectSize 是外接矩形边长<br />
+CGFloat origin_x = self.position.x - outsideRectSize/2 + (progress - 0.5)*(self.frame.size.width - outsideRectSize);<br />
+CGFloat origin_y = self.position.y - outsideRectSize/2;<br />
+self.outsideRect = CGRectMake(origin_x, origin_y, outsideRectSize, outsideRectSize);<br />
+其次我们还需要判断当前是向左滑还是向右滑，左滑的时候 B 动 D 不动；右滑的时候 D 动 B 不动。<br />
+//只要外接矩形在左侧，则改变B点；在右边，改变D点<br />
+if (progress &lt;= 0.5) {<br />
+self.movePoint = POINT_B;<br />
+NSLog(@"B点动");<br />
+}else{<br />
+self.movePoint = POINT_D;<br />
+NSLog(@"D点动");<br />
+}</li>
+</ul>
+
+<p><span class="timestamp">Last update: 01/19/2023 13:36</span></p>
+</div>
+</article>
+
